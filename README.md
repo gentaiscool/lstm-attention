@@ -4,12 +4,17 @@ This code is used in <a href="https://arxiv.org/abs/1805.12307">Attention-Based 
 
 If you are using the code in your work, please cite the following (Will appear in the ICASSP 2018 Proceeding)
 ```
-@article{winata2018attention,
-  title={Attention-Based LSTM for Psychological Stress Detection from Spoken Language Using Distant Supervision},
-  author={Winata, Genta Indra and Kampman, Onno Pepijn and Fung, Pascale},
-  journal={arXiv preprint arXiv:1805.12307},
-  year={2018}
-}
+@INPROCEEDINGS{8461990,
+author={G. I. Winata and O. P. Kampman and P. Fung},
+booktitle={2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+title={Attention-Based LSTM for Psychological Stress Detection from Spoken Language Using Distant Supervision},
+year={2018},
+volume={},
+number={},
+pages={6204-6208},
+doi={10.1109/ICASSP.2018.8461990},
+ISSN={2379-190X},
+month={April},}
 ```
 
 The architecture of the model is illustrated by the following
