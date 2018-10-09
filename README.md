@@ -2,7 +2,7 @@
 
 This code is used in <a href="https://arxiv.org/abs/1805.12307">Attention-Based LSTM for Psychological Stress Detection from Spoken Language Using Distant Supervision</a> paper. The idea is to consider the importance of every word from the inputs and use it in the classification. Then the importance scores are normalized through the softmax layer. The weighted sum of the score and hidden states in every time-step is used for the classification.
 
-If you are using the code in your work, please cite the following (Will appear in the ICASSP 2018 Proceeding)
+If you are using the code in your work, please cite the following (ICASSP 2018 Proceeding)
 ```
 @INPROCEEDINGS{8461990,
 author={G. I. Winata and O. P. Kampman and P. Fung},
