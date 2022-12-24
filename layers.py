@@ -83,7 +83,18 @@ class AttentionWithContext(Layer):
 
 		self.bias = bias
 		super(AttentionWithContext, self).__init__(**kwargs)
-
+	def get_config(self):
+        	config = super().get_config().copy()
+        	config.update({
+            	'W_regularizer': self.W_regularizer,
+            	'u_regularizer': self.u_regularizer,
+            	'b_regularizer': self.b_regularizer,
+            	'W_constraint': self.W_constraint,
+            	'u_constraint': self.u_constraint,
+            	'b_constraint': self.b_constraint,
+            	'bias': self.bias,
+        	})
+        	return config
 	def build(self, input_shape):
 		assert len(input_shape) == 3
 
